@@ -8,8 +8,8 @@
 
 
 
-## 💻 Sistem Requirements
-| Bileşenler | Minimum Gereksinimler | 
+## 💻 System Requirements
+| Hardware | Minimum Requirements | 
 | ------------ | ------------ |
 | CPU |	4|
 | RAM	| 8+ GB |
