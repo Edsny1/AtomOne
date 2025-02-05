@@ -109,7 +109,7 @@ sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.atomone/config/config
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.atomone/config/config.toml
 ```
 
-### 💢Servis Setup
+### 💢Service Setup
 ```
 sudo tee /etc/systemd/system/atomoned.service > /dev/null <<EOF
 [Unit]
