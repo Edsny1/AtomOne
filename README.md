@@ -23,13 +23,13 @@
 
 
 
-### 💢Gerekli kurulumlar
+### 💢Required Installations
 ```
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip gcc clang cmake build-essential -y
 ```
 
-### 💢 Go kurulumu
+### 💢 Go Install
 ```
 cd $HOME
 VER="1.23.0"
@@ -43,7 +43,7 @@ source $HOME/.bash_profile
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 ```
 
-### 💢Dosyaları çekelim
+### 💢Set Vars
 ```
 echo "export WALLET="wallet"" >> $HOME/.bash_profile
 echo "export MONIKER="test"" >> $HOME/.bash_profile
@@ -51,6 +51,8 @@ echo "export ATOMONE_CHAIN_ID="atomone-1"" >> $HOME/.bash_profile
 echo "export ATOMONE_PORT="17"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
+
+### 💢Download Binary
 ```
 cd $HOME
 rm -rf atomone
@@ -60,7 +62,7 @@ git checkout v1.0.0
 make install
 ```
 
-### 💢Yapılandırma ayarları
+### 💢Configuration settings
 ```
 atomoned init $MONIKER --chain-id $ATOMONE_CHAIN_ID
 sed -i \
@@ -113,7 +115,7 @@ sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.atomone/config/config
 sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.atomone/config/config.toml
 ```
 
-### 💢Servis oluşturalım
+### 💢Servis Setup
 ```
 sudo tee /etc/systemd/system/atomoned.service > /dev/null <<EOF
 [Unit]
