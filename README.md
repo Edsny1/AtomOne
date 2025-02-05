@@ -8,7 +8,7 @@
 
 
 
-## 💻 Sistem Gereksinimleri
+## 💻 Sistem Requirements
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
 | CPU |	4|
