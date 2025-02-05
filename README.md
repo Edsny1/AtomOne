@@ -1,13 +1,7 @@
 
-
-
-
+![1500x500](https://github.com/user-attachments/assets/bd8092af-aefe-4374-a52a-e3c9e219df11)
 
 <h1 align="center"> AtomOne
-
-
-
-![1500x500](https://github.com/user-attachments/assets/bd8092af-aefe-4374-a52a-e3c9e219df11)
 
 
 </h1>
