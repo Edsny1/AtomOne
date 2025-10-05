@@ -197,7 +197,7 @@ sed -i "/ATOMONE_/d" $HOME/.bash_profile
 ```
 
 ```
-Thanks Itrocket...
+Thanks for the snapshot Itrocket...
 ```
 
 
